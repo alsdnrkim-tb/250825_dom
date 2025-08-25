@@ -135,6 +135,8 @@
       // 입력창에서 Enter 키를 눌렀을 때도 추가 버튼이 클릭되도록 처리
       itemInput.addEventListener("keyup", (event) => {
         if (event.key === "Enter") {
+          //   const voice = new SpeechSynthesisUtterance("넌 이미 죽어있다");
+          //   window.speechSynthesis.speak(voice);
           addBtn.click();
         }
       });
